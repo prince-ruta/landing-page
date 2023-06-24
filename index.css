@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1 1 auto;
+}
+
+.container {
+    background-color: #1f2937;
+}
+
+header {
+    color: white;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    padding: 0 48px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0 20px;
+    display: flex;
+    gap: 1em;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 18px;
+    text-align: center;
+}
+
+.section-one {
+    color: white;
+    padding: 60px;
+    
+}
+
+.awesome-class {
+    font-size: 36px;
+    
+}
+
+.first {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.first > img {
+    width: 360px;
+    height: auto;
+    padding: 20px;
+    padding-bottom: 48px;
+    padding-left: 0;
+
+}
+
+.button-one {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 80px;
+    height: auto;
+    padding: 2px 12px;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+
+.para-one {
+    width: 300px;
+    font-size: 20px;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo img {
+    width: 200px;
+    height: 150px;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.photo p {
+    margin-top: 10px;
+}
+
+.section-two h2 {
+    text-align: center;
+    padding: 30px;
+}
+
+.section-three {
+    text-align: center;
+    background-color: #e5e7eb;
+    padding: 2px 95px;
+}
+
+.quote-class {
+    font-family: "light italic";
+    font-size: 36px;
+    color: #1f2937;
+    padding-bottom: 0;
+}
+
+.author {
+    padding-top: 0;
+    text-align: end;
+    padding-right: 350px;
+}
+
+.section-four {
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.call-to-action {
+    text-align: center;
+}
+
+.button-two {
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    justify-content: flex-end;
+    padding: 0 30px;
+    border-radius: 10px;
+    height: 38px;
+    justify-content: center;
+}
