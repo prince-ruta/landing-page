@@ -42,12 +42,13 @@ footer {
 .section-one {
     color: white;
     padding: 60px;
-    
 }
 
 .awesome-class {
     font-size: 36px;
-    
+    font: bolder;
+    font-size: 48px;
+    padding-bottom: 0px;
 }
 
 .first {
@@ -63,6 +64,7 @@ footer {
     padding: 20px;
     padding-bottom: 48px;
     padding-left: 0;
+    margin-right: 100px;
 
 }
 
@@ -71,31 +73,49 @@ footer {
     color: white;
     border-radius: 10px;
     border: none;
-    width: 80px;
+   /*  width: 80px;
     height: auto;
     padding: 2px 12px;
     padding-bottom: 5px;
-    font-size: 15px;
+    font-size: 15px; */
+     padding: 5px 30px;
+    border-radius: 10px;
+    height: 38px;
+    justify-content: center;
+    font: bold;
 }
 
 .para-one {
-    width: 300px;
+    width: 400px;
+    font-family: sans-serif;
     font-size: 20px;
+    margin-top: 0px;
+    padding-top: 1px;
 }
 
 .photo-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-bottom: 40px;
+    margin: 25px;
 }
 
-.photo {
+.section2-heading {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 2px;
+}
+
+/* .photo {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+    justify-content: center;
+    
+} */
 
 .photo img {
+    margin: 15px;
     width: 200px;
     height: 150px;
     padding: 2px;
@@ -106,15 +126,24 @@ footer {
     margin-top: 10px;
 }
 
-.section-two h2 {
+/* .section-two h2 {
     text-align: center;
     padding: 30px;
+    margin: 15px;
+}
+ */
+.section-two {
+    margin: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;   
 }
 
 .section-three {
     text-align: center;
     background-color: #e5e7eb;
-    padding: 2px 95px;
+    padding: 2px 270px;
 }
 
 .quote-class {
@@ -122,12 +151,16 @@ footer {
     font-size: 36px;
     color: #1f2937;
     padding-bottom: 0;
+    margin: 180px;
+    margin-top: 50px;
+    margin-bottom: 15px;
 }
 
 .author {
     padding-top: 0;
     text-align: end;
     padding-right: 350px;
+    margin-bottom: 50px;
 }
 
 .section-four {
@@ -136,8 +169,9 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 50px;
+    margin: 100px 250px;
     border-radius: 10px;
+    padding: 30px;
 }
 
 .call-to-action {
